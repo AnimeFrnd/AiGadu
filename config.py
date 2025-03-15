@@ -13,21 +13,21 @@ def str_to_bool(value):
     return str(value).lower() in ("true", "1", "yes")
 
 # Bot Credentials
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-API_ID = get_int_env("API_ID", 1234567)
-API_HASH = os.environ.get("API_HASH", "YOUR_API_HASH_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5800464701:AAFfKXUNR_FaQqTQEDAEzeRZhHDLl5Ml9Ro")
+API_ID = get_int_env("API_ID", 7515868)
+API_HASH = os.environ.get("API_HASH", "dbd251e9ad4883b0443cc82b618ac6fa")
 
 # Owner & Database Info
-OWNER_ID = get_int_env("OWNER_ID", 123456789)
-DB_URL = os.environ.get("DB_URL", "YOUR_MONGODB_URI_HERE")
-DB_NAME = os.environ.get("DB_NAME", "DATABASE_NAME")
+OWNER_ID = get_int_env("OWNER_ID", 6081617163)
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "aryabro")
 
 # Force Sub Channels (4 Working)
-CHANNEL_ID = get_int_env("CHANNEL_ID", -1001234567890)
-FORCE_SUB_CHANNEL = get_int_env("FORCE_SUB_CHANNEL", -1001234567891)
-FORCE_SUB_CHANNEL2 = get_int_env("FORCE_SUB_CHANNEL2", -1001234567892)
-FORCE_SUB_CHANNEL3 = get_int_env("FORCE_SUB_CHANNEL3", -1001234567893)
-FORCE_SUB_CHANNEL4 = get_int_env("FORCE_SUB_CHANNEL4", -1001234567894)
+CHANNEL_ID = get_int_env("CHANNEL_ID", -1002292066966)
+FORCE_SUB_CHANNEL = get_int_env("FORCE_SUB_CHANNEL", 0)
+FORCE_SUB_CHANNEL2 = get_int_env("FORCE_SUB_CHANNEL2", 0)
+FORCE_SUB_CHANNEL3 = get_int_env("FORCE_SUB_CHANNEL3", 0)
+FORCE_SUB_CHANNEL4 = get_int_env("FORCE_SUB_CHANNEL4", 0)
 
 # Other Settings
 FILE_AUTO_DELETE = get_int_env("FILE_AUTO_DELETE", 86400)
@@ -35,8 +35,8 @@ PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = get_int_env("TG_BOT_WORKERS", 6)
 
 # Images
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/example.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/example.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/703f6dd8194cb5d707d63-c4bfc450283f9a4b4b.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/703f6dd8194cb5d707d63-c4bfc450283f9a4b4b.jpg")
 
 # Admins Handling
 ADMINS = {OWNER_ID}

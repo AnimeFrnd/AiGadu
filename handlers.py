@@ -48,7 +48,7 @@ async def handle_files(bot, message: Message):
     log_activity(user_id, "file_uploaded", file_id)
 
     # Send File Link
-    await message.reply_text(f"✅ File Saved Successfully!
+    await message.reply_text(f"✅ File Saved Successfully!") 
 
 🔗 File ID: `{file_id}`", quote=True)
 
